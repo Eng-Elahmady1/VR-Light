@@ -585,16 +585,16 @@ header {
       align-items: flex-end;
       transition: var(--maintransition);
       &.card-1 {
-        background-image: url(./images/headset1.png);
+        background-image: url(./images/headset1.webp);
       }
       &.card-2 {
-        background-image: url(./images/headset2.png);
+        background-image: url(./images/headset2.webp);
       }
       &.card-3 {
-        background-image: url(./images/headset3.png);
+        background-image: url(./images/headset3.webp);
       }
       &.card-4 {
-        background-image: url(./images/headset4.png);
+        background-image: url(./images/headset4.webp);
       }
       .text {
         position: absolute;
@@ -820,7 +820,7 @@ header {
     }
     .image {
       flex-basis: 60%;
-      background-image: url(./images/footer.png);
+      background-image: url(./images/footer.webp);
       background-position: center;
       background-repeat: no-repeat;
       background-size: cover;
