@@ -1,4 +1,3 @@
-@import url("https://fonts.googleapis.com/css2?family=Cairo&display=swap");
 
 :root {
   --dark-bg-gradient: linear-gradient(
@@ -31,6 +30,14 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  font-family: "Cairo", Tahoma, Arial, sans-serif;
+  background: var(--dark-bg-gradient);
+  color: var(--whiteColor);
+  overflow-x: hidden;
+  overflow-y: hidden;
+}
+
 a {
   text-decoration: none;
   color: var(--whiteColor);
@@ -40,14 +47,6 @@ ul {
   list-style: none;
   margin: 0;
   padding: 0;
-}
-
-body {
-  font-family: "Cairo", sans-serif;
-  background: var(--dark-bg-gradient);
-  color: var(--whiteColor);
-  overflow-x: hidden;
-  overflow-y: hidden;
 }
 
 .container {
@@ -155,7 +154,7 @@ body {
 }
 
 /* Loader Animation  */
-.loader{
+.loader {
   position: fixed;
   top: 0;
   right: 0;
